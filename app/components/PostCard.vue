@@ -10,7 +10,7 @@ defineProps({
 <template>
     <div class="justify-center flex">
         <div
-            class="w-4/5 md:w-full py-2 px-2 justify-center text-center my-3 rounded-lg border-2 border-black"
+            class="w-9/10 md:w-full py-2 px-2 justify-center text-center my-3 rounded-lg border-2 border-black"
         >
             <div class="flex items-center justify-between pb-2 gap-10">
                 <p class="text-blue-800 rounded">Tech</p>
