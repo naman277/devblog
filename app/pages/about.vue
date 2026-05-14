@@ -2,6 +2,6 @@
 
 <template>
     <div>
-        <dev-badge label="About"></dev-badge>
+        <h1>asdfgdsgvsdg</h1>
     </div>
 </template>
