@@ -14,13 +14,13 @@ function addMore() {
         showAll.value = false;
     }
 }
-setTimeout(() => {
-    isLoading.value = false;
-}, 1000);
+// setTimeout(() => {
+//     isLoading.value = false;
+// }, 1000);
 const { data: postcards } = await useFetch(
     "https://jsonplaceholder.typicode.com/posts",
 );
-// isLoading.value = false;
+isLoading.value = false;
 </script>
 
 <template>
