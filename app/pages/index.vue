@@ -33,7 +33,6 @@ isLoading.value = false;
             class="justify-center flex mt-10 h-70 items-center"
         >
             <div
-                v-if="isLoading"
                 class="animate-spin inline-block size-6 border-3 border-current border-t-transparent rounded-[999px] text-muted-foreground-2"
                 role="status"
                 aria-label="loading"
@@ -42,6 +41,7 @@ isLoading.value = false;
             </div>
         </div>
         <div v-else>
+            <h1 class="text-3xl font-bold mb-4 text-white">Latest Posts</h1>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
                 <PostCard
                     v-for="card in postcards.slice(0, limit)"

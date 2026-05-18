@@ -3,7 +3,7 @@
 <template>
     <div>
         <AppHeader />
-        <main class="container w-full min-w-screen">
+        <main class="container min-w-full min-h-screen bg-zinc-800">
             <slot />
         </main>
     </div>

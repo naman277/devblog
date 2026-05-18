@@ -1,7 +1,7 @@
 <template>
     <div>
         <header
-            class="flex items-center justify-between text-white bg-gray-600"
+            class="flex items-center justify-between text-white bg-zinc-800 border-b border-gray-500"
         >
             <div class="p-4">
                 <dev-badge></dev-badge>
@@ -11,8 +11,8 @@
                 <ul class="flex items-stretch h-full">
                     <li class="flex">
                         <NuxtLink
-                            active-class="bg-gray-800"
-                            class="flex items-center px-4 py-4 hover:bg-gray-900"
+                            active-class="text-blue-400"
+                            class="flex items-center px-4 py-4 hover:text-blue-400"
                             to="/"
                         >
                             Home
@@ -21,8 +21,8 @@
 
                     <li class="flex">
                         <NuxtLink
-                            active-class="bg-gray-800"
-                            class="flex items-center px-4 py-4 hover:bg-gray-900"
+                            active-class="text-blue-400"
+                            class="flex items-center px-4 py-4 hover:text-blue-400"
                             to="/about"
                         >
                             About

@@ -11,11 +11,20 @@ useHead({
 
 <template>
     <div class="mx-auto p-4">
-        <NuxtLink to="/" class="text-xl text-blue-500 hover:underline"
-            >Back to home</NuxtLink
+        <NuxtLink to="/" class="text-blue-400 hover:underline"
+            >← Back to posts</NuxtLink
         >
-        <p class="text-blue-800 rounded text-4xl font-bold">Tech</p>
-        <h1 class="text-3xl font-bold mb-4">{{ post.title }}</h1>
-        <p>{{ post.body }}</p>
+        <br />
+        <br />
+        <!-- <p
+            class="text-blue-800 rounded-3xl bg-blue-100 px-2 font-semibold w-fit"
+        >
+            Tech
+        </p> -->
+        <card-label></card-label>
+        <br />
+
+        <h1 class="text-3xl font-bold mb-4 text-white">{{ post.title }}</h1>
+        <p class="text-gray-200 leading-7">{{ post.body }}</p>
     </div>
 </template>
