@@ -1,7 +1,11 @@
-<script setup></script>
+<script setup>
+useHead({
+    title: "About DevBlog",
+});
+</script>
 
 <template>
-    <div>
+    <div class="mx-auto p-4">
         <h1 class="text-3xl font-bold mb-4">About DevBlog</h1>
 
         <p class="text-gray-700 leading-7">

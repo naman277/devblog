@@ -3,7 +3,7 @@
 <template>
     <div>
         <AppHeader />
-        <main class="container mx-auto p-4">
+        <main class="container w-full min-w-screen">
             <slot />
         </main>
     </div>

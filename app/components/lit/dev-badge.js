@@ -1,10 +1,15 @@
-import { LitElement, html } from "lit";
+import { LitElement, css, html } from "lit";
 
 class DevBadge extends LitElement {
     static properties = {
         label: { type: String },
     };
 
+    static styles = css`
+        div {
+            font-weight: bold;
+        }
+    `;
     constructor() {
         super();
         this.label = "DevBlog";

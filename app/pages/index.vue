@@ -1,4 +1,7 @@
 <script setup>
+useHead({
+    title: "DevBlog",
+});
 let isLoading = ref(true);
 let limit = ref(12);
 let showAll = ref(false);
@@ -24,7 +27,7 @@ isLoading.value = false;
 </script>
 
 <template>
-    <div>
+    <div class="mx-auto p-4">
         <div
             v-if="isLoading"
             class="justify-center flex mt-10 h-70 items-center"

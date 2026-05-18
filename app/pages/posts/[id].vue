@@ -1,12 +1,16 @@
 <script setup>
 const { id } = useRoute().params;
+
 const { data: post } = await useFetch(
     `https://jsonplaceholder.typicode.com/posts/${id}`,
 );
+useHead({
+    title: `${post.value ? post.value.title : "Loading..."}`,
+});
 </script>
 
 <template>
-    <div>
+    <div class="mx-auto p-4">
         <NuxtLink to="/" class="text-xl text-blue-500 hover:underline"
             >Back to home</NuxtLink
         >
