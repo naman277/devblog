@@ -18,7 +18,7 @@ class CardLabel extends LitElement {
 
     render() {
         return html`<div
-            class="text-blue-800 w-fit rounded-3xl bg-blue-100 px-2 font-semibold mt-1 ml-1"
+            class="text-blue-800 w-fit rounded-3xl bg-blue-100 px-2 font-semibold mt-1"
         >
             ${this.label}
         </div>`;

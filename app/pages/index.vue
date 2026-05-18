@@ -42,7 +42,7 @@ isLoading.value = false;
         </div>
         <div v-else>
             <h1 class="text-3xl font-bold mb-4 text-white">Latest Posts</h1>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-x-8">
                 <PostCard
                     v-for="card in postcards.slice(0, limit)"
                     :key="card.id"

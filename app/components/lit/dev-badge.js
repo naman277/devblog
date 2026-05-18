@@ -8,6 +8,7 @@ class DevBadge extends LitElement {
     static styles = css`
         div {
             font-weight: bold;
+            cursor: pointer;
         }
     `;
     constructor() {
@@ -16,7 +17,9 @@ class DevBadge extends LitElement {
     }
 
     render() {
-        return html`<div>${this.label}</div>`;
+        return html`<div @click=${() => (document.location.href = "/")}>
+            ${this.label}
+        </div>`;
     }
 }
 
