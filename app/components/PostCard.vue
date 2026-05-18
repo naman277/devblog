@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { Card } from "react-bootstrap";
 import type { Post } from "~/types";
 const { postcard } = defineProps<{
     postcard: Post;
