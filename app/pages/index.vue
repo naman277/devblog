@@ -6,7 +6,7 @@ let isLoading = ref(true);
 let limit = ref(12);
 let showAll = ref(false);
 function addMore() {
-    limit.value += 8;
+    limit.value += 16;
     if (showAll.value) {
         limit.value = 12;
     }
